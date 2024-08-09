@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -246,7 +246,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="blog post">blog post <span class="quarto-category-count">(2)</span></div><div class="category" data-category="blog with code">blog with code <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="My opinion">My opinion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog post">blog post <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog with code">blog with code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="new learning">new learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="views">views <span class="quarto-category-count">(2)</span></div><div class="category" data-category="സന്ദർശിക്കുക">സന്ദർശിക്കുക <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -277,33 +277,6 @@ window.Quarto = {
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="blog post" data-listing-file-modified-sort="1722921530709" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
 <div class="thumbnail">
-<p><a href="./posts/another_post.html" class="no-external"></a></p><a href="./posts/another_post.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/another_post.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/another_post.html" class="no-external">Blogpost Example</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/another_post.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog post'); return false;">
-blog post
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/another_post.html" class="no-external">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure…</a>
-</div>
-</div>
-<div class="metadata">
-<p><a href="./posts/another_post.html" class="no-external"></a></p><a href="./posts/another_post.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="blog post" data-listing-file-modified-sort="1722921530709" data-listing-reading-time-sort="1" data-listing-word-count-sort="69">
-<div class="thumbnail">
 <p><a href="./posts/post.html" class="no-external"></a></p><a href="./posts/post.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 </a><p><a href="./posts/post.html" class="no-external"></a></p>
@@ -329,7 +302,7 @@ blog post
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="blog with code" data-listing-file-modified-sort="1722924757455" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
+<div class="quarto-post image-right" data-index="1" data-categories="blog with code" data-listing-file-modified-sort="1722924757455" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
 <div class="thumbnail">
 <p><a href="./posts/post_with_code.html" class="no-external"></a></p><a href="./posts/post_with_code.html" class="no-external">
 <p class="card-img-top"><img src="posts\post_with_code_files\figure-html\fig-polar-output-1.png"  class="thumbnail-image card-img"/></p>
@@ -353,6 +326,193 @@ blog with code
 </div>
 <div class="metadata">
 <p><a href="./posts/post_with_code.html" class="no-external"></a></p><a href="./posts/post_with_code.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1722926481676" data-listing-reading-time-sort="2" data-listing-word-count-sort="245">
+<div class="thumbnail">
+<p><a href="./posts/recipe.html" class="no-external"></a></p><a href="./posts/recipe.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/recipe.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/recipe.html" class="no-external"></a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/recipe.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./posts/recipe.html" class="no-external">categories: - blog post format: html: df-print: paged toc: true text: title:सुस्वादुं चिक्कणकुर्यम् (Chicken Curry) यथासम्भवत् संस्कृतभाषायाम् लिखामि।</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./posts/recipe.html" class="no-external"></a></p><a href="./posts/recipe.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="My opinion" data-listing-date-sort="1722623400000" data-listing-file-modified-sort="1722960247787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
+<div class="thumbnail">
+<p><a href="./posts/Book Review/index.html" class="no-external"></a></p><a href="./posts/Book Review/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/Book Review/olena-bohovyk-Ft_Wn-K5YH8-unsplash.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/Book Review/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Book Review/index.html" class="no-external">Beyond the Page: The Importance of Book Reviews</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/Book Review/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('My opinion'); return false;">
+My opinion
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/Book Review/index.html" class="no-external">The Art of Book Reviewing: A Journey Through Words Book reviews are more than just summaries of a plot or critiques of a writer’s style; they are windows into the profound dialogue between a reader and the written word. In a world overflowing with…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/Book Review/index.html" class="no-external">
+<div class="listing-date">
+Aug 3, 2024
+</div>
+<div class="listing-author">
+Aman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="views" data-listing-date-sort="1722623400000" data-listing-file-modified-sort="1722958333220" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="259">
+<div class="thumbnail">
+<p><a href="./posts/Cinema/index.html" class="no-external"></a></p><a href="./posts/Cinema/index.html" class="no-external">
+<p class="card-img-top"><img src="posts\Cinema\pexels-tima-miroshnichenko-7991579.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/Cinema/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Cinema/index.html" class="no-external">Cinema</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/Cinema/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('views'); return false;">
+views
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/Cinema/index.html" class="no-external">The Magic of Cinema: A Journey Through Time Cinema has always been more than just a medium for storytelling; it is an art form that transcends boundaries and brings together people from diverse backgrounds to experience emotions collectively. Since…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/Cinema/index.html" class="no-external">
+<div class="listing-date">
+Aug 3, 2024
+</div>
+<div class="listing-author">
+Aman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="സന്ദർശിക്കുക" data-listing-date-sort="1722623400000" data-listing-file-modified-sort="1722936863976" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+<div class="thumbnail">
+<p><a href="./posts/My hopes/index.html" class="no-external"></a></p><a href="./posts/My hopes/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/My hopes/ron-smith-63tBU8et1YY-unsplash.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/My hopes/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/My hopes/index.html" class="no-external">എന്റെ പ്രേതിക്ഷകൾ</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/My hopes/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('സന്ദർശിക്കുക'); return false;">
+സന്ദർശിക്കുക
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/My hopes/index.html" class="no-external">പ്രതീക്ഷകൾ, എന്നത് ഒരു വ്യക്തിയുടെ ജീവിതത്തിൽ വലിയ പ്രാധാന്യമുള്ളതാണ്. ഈ പ്രതീക്ഷകൾ നമ്മെ സജീവമാക്കുകയും, നമ്മുടെ ലക്ഷ്യങ്ങളിലേക്ക് എത്തിക്കാൻ പ്രചോദനം നൽകുകയും ചെയ്യുന്നു. ഇനിയും വലിയ സ്വപ്നങ്ങൾ കാക്കുന്നവരും നിത്യവും പുതിയ പ്രതീക്ഷകളെ…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/My hopes/index.html" class="no-external">
+<div class="listing-date">
+Aug 3, 2024
+</div>
+<div class="listing-author">
+Aman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="views" data-listing-date-sort="1722623400000" data-listing-file-modified-sort="1722966025370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+<div class="thumbnail">
+<p><a href="./posts/My_home/index.html" class="no-external"></a></p><a href="./posts/My_home/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/My_home/my home.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/My_home/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/My_home/index.html" class="no-external">എന്റെ നാട്</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/My_home/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('views'); return false;">
+views
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/My_home/index.html" class="no-external">എന്റെ നാട്: നനവേകുന്ന ഓർമകളുടെ തറവാട് എന്റെ നാട്, കേരളം, സ്വർഗ്ഗത്തിന്റെ ഒരു കഷണം പോലെ എന്റെ ഹൃദയത്തിൽ ഇടം പിടിച്ചിരിക്കുന്നു. പ്രകൃതിയുടെ അപാര സൌന്ദര്യവും സ്നേഹത്തിന്റെ നന്മയും നിറഞ്ഞു നില്ക്കുന്ന ഈ ദേശം എനിക്ക് എന്നും ഓർമ്മകളുടെ ഒരു തറവാടാണ്.…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/My_home/index.html" class="no-external">
+<div class="listing-date">
+Aug 3, 2024
+</div>
+<div class="listing-author">
+Aman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="new learning" data-listing-date-sort="1722623400000" data-listing-file-modified-sort="1722934160257" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+<div class="thumbnail">
+<p><a href="./posts/New_thoughts/index.html" class="no-external"></a></p><a href="./posts/New_thoughts/index.html" class="no-external">
+<p><img loading="lazy" src="./posts/New_thoughts/thumbnail.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/New_thoughts/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/New_thoughts/index.html" class="no-external">Discover Quarto: Revolutionizing Dynamic Document Creation</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/New_thoughts/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('new learning'); return false;">
+new learning
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/New_thoughts/index.html" class="no-external">Exploring Quarto: The Next-Generation Publishing System</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/New_thoughts/index.html" class="no-external">
+<div class="listing-date">
+Aug 3, 2024
+</div>
+<div class="listing-author">
+Aman
+</div>
 </a>
 </div>
 </div>

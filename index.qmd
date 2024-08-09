@@ -5,3 +5,27 @@ title: "My Personal Webpage"
 Welcome to my personal page! I thrive on solving complex problems and love turning innovative ideas into reality. Whether I'm coding, designing, or exploring new fields, I bring dedication and curiosity to everything I do. Outside of work, I enjoy hiking, reading science fiction, and experimenting with new recipes. Here, you'll find insights into my projects, interests, and the journey I'm on to make a positive impact in the world. Thank you for visiting, and I hope you find something that inspires you!
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I'm Aman Govind,a second-year B.Tech Computer Science student at Saintgits College of Engineering
+🌱 I’m currently learning -Basics of Machine Learning -Programming languages like Python,Java and C.
+
+📫 How to reach me <amangovind48@gmail.com>
+
+😄 Pronouns:
+
+He/Him
+
+
+📚 Education
+B.Tech in Computer Science and Engineering
+Saintgits College of Engineering, Kottayam, Kerala
+August 2023 – Present
+
+1st Sem SGPA: 7.96
+2nd Sem SGPA: 7.6
+Class 11th & 12th
+Ithithanam Higher Secondary School August 2021 – March 2023
+
+Marks: 96%
+🧠 Workshops and Seminars
+AWS CLOUD COMPUTING-CET TRIVANDRUM
+April 2024

@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blogpost Example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnother blogpost example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA sample work\n\n\n\n\n\n\nblog with code\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Another blogpost example\n\n\n\n\n\n\nblog post\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA sample work\n\n\n\n\n\n\nblog with code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBeyond the Page: The Importance of Book Reviews\n\n\n\n\n\n\nMy opinion\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nAman\n\n\n\n\n\n\n\n\n\n\n\n\nCinema\n\n\n\n\n\n\nviews\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nAman\n\n\n\n\n\n\n\n\n\n\n\n\nഎന്റെ പ്രേതിക്ഷകൾ\n\n\n\n\n\n\nസന്ദർശിക്കുക\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nAman\n\n\n\n\n\n\n\n\n\n\n\n\nഎന്റെ നാട്\n\n\n\n\n\n\nviews\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nAman\n\n\n\n\n\n\n\n\n\n\n\n\nDiscover Quarto: Revolutionizing Dynamic Document Creation\n\n\n\n\n\n\nnew learning\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nAman\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -54,5 +54,47 @@
     "title": "A sample work",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "posts/New_thoughts/index.html",
+    "href": "posts/New_thoughts/index.html",
+    "title": "Discover Quarto: Revolutionizing Dynamic Document Creation",
+    "section": "",
+    "text": "Exploring Quarto: The Next-Generation Publishing System\nToday, I stumbled upon Quarto, an innovative open-source tool that’s making waves in the world of dynamic publishing. Quarto stands out with its ability to seamlessly integrate code with text, allowing users to create reproducible reports, interactive documents, and even presentations with ease. Whether you’re a data scientist, researcher, or just someone who enjoys mixing code with narrative, Quarto’s flexibility is a game-changer. It supports multiple programming languages such as R, Python, and Julia, and it offers a range of document formats to suit various needs. This powerful tool is designed to enhance reproducibility and customization, making it a valuable asset for anyone involved in data analysis or scholarly work.\nWhat sets Quarto apart from other tools like RMarkdown or Jupyter Notebooks is its versatility and ease of use. It not only simplifies the process of integrating code and visuals but also allows for advanced customizations and outputs in formats like HTML, PDF, and even interactive websites. For anyone looking to streamline their workflow or enhance their reporting capabilities, Quarto is definitely worth exploring. Dive into the world of Quarto today and see how it can transform your document creation process."
+  },
+  {
+    "objectID": "posts/My hopes/index.html",
+    "href": "posts/My hopes/index.html",
+    "title": "എന്റെ പ്രേതിക്ഷകൾ",
+    "section": "",
+    "text": "പ്രതീക്ഷകൾ, എന്നത് ഒരു വ്യക്തിയുടെ ജീവിതത്തിൽ വലിയ പ്രാധാന്യമുള്ളതാണ്. ഈ പ്രതീക്ഷകൾ നമ്മെ സജീവമാക്കുകയും, നമ്മുടെ ലക്ഷ്യങ്ങളിലേക്ക് എത്തിക്കാൻ പ്രചോദനം നൽകുകയും ചെയ്യുന്നു. ഇനിയും വലിയ സ്വപ്നങ്ങൾ കാക്കുന്നവരും നിത്യവും പുതിയ പ്രതീക്ഷകളെ പിന്തുടരുന്നവരും നമ്മൾ. ഓരോ ദിവസവും പുതിയ വെല്ലുവിളികൾക്കെതിരെ നമുക്ക് പ്രതീക്ഷയുടെ ശക്തി തന്നെ സഹായം നൽകുന്നു. നമ്മുടെ ജീവിതത്തിൽ വലിയ വിജയങ്ങൾ കൈവരിക്കാൻ ഇതിന്റെ പ്രാധാന്യം നിർണായകമാണ്.\nഎന്നാൽ, പ്രതീക്ഷകൾ നമുക്ക് എങ്ങനെ സഹായകമാണ് എന്ന് പരിശോധിക്കുമ്പോൾ, നമ്മൾ അവരെ മാനസികമായും, ചിതറി പോയ സമയങ്ങളിലും സംരക്ഷിക്കേണ്ടതാണ്. ജീവിതത്തിന്റെ താണിയിലും എപ്പോഴും ആശ്വാസം നൽകുന്ന പ്രതീക്ഷകൾ, നമ്മളെ മുന്നോട്ട് കൊണ്ടുപോകാൻ പ്രചോദനം നൽകുന്നു. ഓരോ നല്ല ദിവസവും, പുതിയൊരു തുടക്കവും, ഒറ്റ നോട്ടത്തിൽ ഒക്കെ കണക്ഷൻ സൃഷ്ടിക്കുന്ന പ്രതീക്ഷയുടെ പകരം, ഇത് ഓരോ വ്യക്തിയുന്ടെ ജീവിതം മാറ്റിവെക്കാനാകുന്ന ശക്തമായ ഒരു കീര്ത്തനമാണ്.\nഇത് എന്നെപ്പോലുള്ളവരെ പ്രചോദിപ്പിക്കുകയും, നേരിട്ടു കാണാത്ത പുതിയ സാധ്യതകൾ തുറക്കുകയും ചെയ്യുന്നു. പ്രതീക്ഷകൾ, ഒരുവട്ടം ഇല്ലാതാക്കപ്പെടുന്ന രീതിയിൽ, പെട്ടെന്ന് ആവർത്തിക്കുന്ന ചിന്തകളെ മാറ്റുന്നു, നമ്മൾ ചിന്തിക്കാൻ, പ്രതീക്ഷിക്കാൻ, മുന്നോട്ട് പോവാൻ വേണ്ടി സഹായം നൽകുന്നു. ഇതുകൊണ്ട്, നമ്മുടെ ജീവിതത്തെ ആകർഷകമായ രീതിയിൽ ആകർഷിക്കാനും, നൂതനമായ ആഗ്രഹങ്ങളിലേക്കുള്ള വഴി തുറക്കാനും ഇത് സഹായിക്കുന്നു."
+  },
+  {
+    "objectID": "posts/Book Review/index.html",
+    "href": "posts/Book Review/index.html",
+    "title": "Beyond the Page: The Importance of Book Reviews",
+    "section": "",
+    "text": "The Art of Book Reviewing: A Journey Through Words Book reviews are more than just summaries of a plot or critiques of a writer’s style; they are windows into the profound dialogue between a reader and the written word. In a world overflowing with countless books, reviews serve as valuable guides, helping readers discover new voices and perspectives. A well-crafted review not only provides a glimpse into the book’s narrative and themes but also reflects the reviewer’s unique insights and emotional responses. This personal touch is what transforms a simple critique into a compelling story in its own right, offering readers a preview of the journey they might embark upon if they choose to delve into the book themselves.\nMoreover, book reviews play a crucial role in the literary ecosystem, supporting authors by increasing the visibility of their work. In an age where word-of-mouth recommendations can determine a book’s success, reviews are essential for capturing the attention of potential readers. They also foster a vibrant community of literary enthusiasts who engage in discussions, share perspectives, and celebrate the joy of reading. By highlighting both strengths and areas for improvement, reviews contribute to the growth of authors and help maintain a dynamic dialogue within the literary world. Whether you’re an avid reader seeking your next great read or an aspiring writer looking for constructive feedback, book reviews offer a treasure trove of insights waiting to be explored."
+  },
+  {
+    "objectID": "posts/Cinema/index.html",
+    "href": "posts/Cinema/index.html",
+    "title": "Cinema",
+    "section": "",
+    "text": "The Magic of Cinema: A Journey Through Time Cinema has always been more than just a medium for storytelling; it is an art form that transcends boundaries and brings together people from diverse backgrounds to experience emotions collectively. Since its inception in the late 19th century, cinema has evolved dramatically, reflecting societal changes and technological advancements. From the silent films of the early 1900s to the immersive 3D experiences of today, the journey of cinema has been nothing short of extraordinary. The silent era, characterized by iconic figures like Charlie Chaplin, laid the groundwork for the narrative structures and genres we see today. As technology advanced, the introduction of sound in films during the late 1920s revolutionized the industry, paving the way for the Golden Age of Hollywood, where stars like Audrey Hepburn and Marlon Brando became household names.\nIn contemporary cinema, we witness a fusion of global cultures and storytelling techniques, with filmmakers exploring diverse narratives and pushing the boundaries of what is possible on screen. The digital age has democratized filmmaking, allowing independent creators to showcase their work alongside major studios, resulting in a rich tapestry of stories that reflect the complexities of modern life. Cinema today is a blend of art and technology, where CGI and virtual reality are redefining the viewer’s experience. Despite these advancements, the core of cinema remains unchanged: the power to transport audiences to different worlds, evoke deep emotions, and provoke thought. As we look to the future, cinema continues to be a dynamic and ever-evolving medium that captures the imagination and inspires generations."
+  },
+  {
+    "objectID": "posts/My_home/index.html",
+    "href": "posts/My_home/index.html",
+    "title": "എന്റെ നാട്",
+    "section": "",
+    "text": "എന്റെ നാട്: നനവേകുന്ന ഓർമകളുടെ തറവാട് എന്റെ നാട്, കേരളം, സ്വർഗ്ഗത്തിന്റെ ഒരു കഷണം പോലെ എന്റെ ഹൃദയത്തിൽ ഇടം പിടിച്ചിരിക്കുന്നു. പ്രകൃതിയുടെ അപാര സൌന്ദര്യവും സ്നേഹത്തിന്റെ നന്മയും നിറഞ്ഞു നില്ക്കുന്ന ഈ ദേശം എനിക്ക് എന്നും ഓർമ്മകളുടെ ഒരു തറവാടാണ്. പച്ചയായ പറമ്പുകൾ, മലകളുടെ മടിവുകൾ, കുളിർമയുള്ള നദികൾ, ഈ മണ്ണിന്റെ ഹരിതാഭമായ ദൃശ്യങ്ങൾ എന്റെ മനസ്സിൽ നിറഞ്ഞു നില്ക്കുന്നു. ഓരോ പെരുവഴിയും, ഓരോ നാടൻ പാട്ടും എന്റെ ബാല്യത്തിന്റെ രസവിലാസങ്ങൾ പകരുന്നു. ഓണംപോലുള്ള ആഘോഷങ്ങൾ, ചെണ്ടമേളത്തിന്റെയും കത്തിക്കളത്തിന്റെയും ആവേശം, നാടിന്റെ സാംസ്കാരിക സമൃദ്ധിയുടെ ഒരു ഭാഗമാണ്.\nമലയാളം എന്ന സ്നേഹഭാഷയുടെ മധുരം, സുഗന്ധഭൂമിയായ കേരളത്തിന്റെ മണവും ചേർന്നു എന്റെ നാടിനെ അനശ്വരമാക്കുന്നു. എന്റെ നാട് എനിക്ക് സ്നേഹത്തിന്റെയും സമാധാനത്തിന്റെയും പ്രതീകമാണ്. ഇവിടെ ജനിച്ചും വളർന്നും സ്വപ്നങ്ങൾ തീർത്ത ഈ മണ്ണ് എനിക്ക് ഒരായിരം കഥകളുടെ കുടിലാണ്. എന്റെ നാട് എന്നെക്കാൾ വലിയതും വിശാലവുമായ, എന്നിട്ടും എന്റെ സ്വന്തം ഒരു പൊന്നാനയമാണ്. ഈ നാട് എനിക്ക് എപ്പോഴും നയൻമണിയുടെയൊരു തനിമയാണ്. അതുകൊണ്ട് തന്നെ എനിക്ക് എന്റെ നാട്ടിൽ നിന്നും ഒരിക്കലും വിടവാങ്ങാനാവില്ല; ഈ മണ്ണിൽ എനിക്ക് എന്റെ ആത്മാവിന്റെ വിശ്രമം ലഭ്യമാണ്."
+  },
+  {
+    "objectID": "posts/recipe.html",
+    "href": "posts/recipe.html",
+    "title": "A Journey Within",
+    "section": "",
+    "text": "categories: - blog post format: html: df-print: paged toc: true text: title:सुस्वादुं चिक्कणकुर्यम् (Chicken Curry) यथासम्भवत् संस्कृतभाषायाम् लिखामि।\nचिक्कणकुर्यस्य विधिः:\nसामग्री: 1. चिक्कणम् (कुक्कुटमांसम्) - 500 ग्राम् 2. तेलम् - 2 चमच 3. पिठानकं (प्याज) - 2, मध्यमविभक्तम् 4. लसुनम् (लहसुन) - 4-5 लवङ्गकाणि 5. अद्रकं (आदरक) - 1 इन्च् (टुक्रात्) 6. टमाटरः - 2, मध्यमविभक्तः 7. धनिया पाउडरः - 2 चमच 8. जीरकपाउडरः - 1 चमच 9. गरम मसाला - 1 चमच 10. मिर्चपाउडरः - 1 चमच (स्वादानुसार) 11. नमकः - स्वादानुसार 12. हलीदी पाउडरः - 1/2 चमच 13. जलम् - 1 कप 14. हरा धनिया (कोथिम्बीर) - सजायाम्\nविधिः:\n\nतयारिः:\n\nतेलं एकस्मिन कुक्कुटकायाम् अथवा पात्रे घृतं स्थापयित्वा गरमयेत्।\nततः पिठानकं (प्याजं) कुट्टि कृत्वा तेले डालित्वा स्वर्णवर्णं यावत् तातयेत्।\n\nलसुन अद्रकस्य उपयोगः:\n\nलसुनं अद्रकं च कूटित्वा प्याजस्य सङ्गे डालित्वा भास्करम् यावत् तातयेत्।\n\nमसालायाः संग्रहः:\n\nधनिया पाउडरः, जीरकपाउडरः, हलीदी पाउडरः, मिर्चपाउडरः च डालित्वा मिलायेत्।\n\nटमाटरः:\n\nटमाटराणि च वितन्य च मसाले सङ्गे डालित्वा टमाटराणि नर्मसारयुक्तानि यावत् भूतस्य युक्तिः सम्पन्नं यावत् पाकयेत्।\n\nचिक्कणम्:\n\nचिक्कणम् (कुक्कुटमांसम्) सम्यक् च तैलसंगं डालित्वा मिलायेत्।\nयथाशक्ति मसालेषु चिक्कणस्य मिश्रणं कृत्वा स्वादानुसार नमकं च मिलायेत्।\n\nपाकः:\n\n1 कप जलं डालित्वा, ढक्कनं स्थापयित्वा 20-25 मिनट् यावत् पकयेत्।\nचिक्कणस्य पक्कता निरीक्षितुं मृदुसं यावत् पाकयेत्।\n\nअन्तिम सजावटः:\n\nहरा धनिया (कोथिम्बीर) साकं सजायाम्।\n\n\nपरिणामः: स्वादिष्टं चिक्कणकुर्यम् ततः खादेयम्। इयं वस्त्राणि अन्नस्य स्वादं वर्धयन्ति यथा च नित्यं पौष्टिकं अस्ति।\n\nसुस्वादुं चिक्कणकुर्यम् आनंदः प्राप्तुम्! यदि अन्यान्य प्रश्नाः वा सन्देहाः सन्ति, कृपया पूछतु।"
   }
 ]
