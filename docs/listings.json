@@ -2,9 +2,6 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/post.html",
-      "/posts/post_with_code.html",
-      "/posts/recipe.html",
       "/posts/Book Review/index.html",
       "/posts/Cinema/index.html",
       "/posts/My hopes/index.html",
